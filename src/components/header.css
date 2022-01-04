@@ -1,0 +1,30 @@
+
+header{
+    min-height: 8vh;
+    width: 100%;
+
+}
+
+.nav-list{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(238, 232, 232);
+    font-size: 1rem;
+    background-color: rgb(96, 96, 145);
+    list-style-type: none;
+    border-radius: 2px;
+    padding: 1rem 1.5rem;
+}
+@media screen and (max-width:770px){
+
+
+}

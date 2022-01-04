@@ -1,0 +1,89 @@
+.login{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(205, 221, 221);
+}
+h2{
+    color: rgb(150, 109, 109);
+    padding-top: 20px;
+    
+}
+
+.content{
+    padding: 5rem;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+   
+}
+
+
+.content label{
+    display: block;
+    color: rgb(53, 45, 45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content input{
+    display: inline-block;
+    width: 100%;
+    height: 3vh;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    /* margin: auto; */
+}
+
+
+.btn {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px;
+    color: rgb(240, 231, 231);
+    /* border: 2px solid rgb(70, 62, 62); */
+    border-radius: 5px;
+    z-index: 1;
+    transition: color 0.5s;
+    position: relative;
+    background: rgb(35, 161, 165);
+    font-size: 1rem;
+}
+/* .btn span{
+    width: 0;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left:0 ;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+} */
+/* .btn:hover span{
+    width: 100%;   
+} */
+.btn:hover{
+    color: #000;   
+}
+@media screen and (max-width:770px){
+    .login{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .content{
+        padding: 2rem;
+        width: 90%;
+        margin: auto;
+        text-align: left;
+       
+    }
+    
+
+}

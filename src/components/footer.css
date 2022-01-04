@@ -1,0 +1,79 @@
+#footer{
+    padding: 40px 20px;
+    background: #c5b8b8;
+    position: relative;
+    text-align: center;
+}
+
+
+.fright{
+   
+    padding: 10px;
+    margin-bottom: 20px;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+ .fright .fa{
+    font-size: 20px;
+    color: #0c2421;
+    margin: 10px;
+}
+
+.social{
+    text-align: center;
+}
+.social .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 40px 5px 0;
+    color:#084b44;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social .fa:hover{
+    background: #091413;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.social .para{
+    margin-top:20px ;
+    margin-bottom: 29px;
+}
+@media screen and (max-width:770px){
+ 
+    .fright{
+        text-align: right;
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .fimg{
+        top: 25%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .fright{
+        padding: 10px;
+        margin-bottom: 20px;
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+    
+    
+    }
+    #footer{
+        padding: 60px 0 20px;
+        background: #efefef;
+        position: relative;
+        text-align: center;
+    }
+
+}
