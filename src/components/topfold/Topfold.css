@@ -1,0 +1,32 @@
+
+
+
+.topfold{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.searchbox{
+    min-height: 5vh;
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+    width: 50%; 
+    border: 2px solid black ;  
+    align-items: center;
+    padding: 0 5px; 
+    background: white;
+}
+.searchbox input{
+    outline: none;
+    border: none;
+    margin-left: .5px;
+    padding: .5rem;
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    /* background: ; */
+}

@@ -1,26 +1,27 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Addform from './pages/addform/Addform';
 import Home from './pages/home/Home';
 import { Routes, Route  } from "react-router-dom";
 import Login from './components/login/Login';
-import NewExpense from './pages/addexpense/AddExpense';
+
+
 function App() {
-
-
   return (
-    <>
-    <Header></Header>
-    <Routes>
-   <Route exact path="/" element={<Home />} />
-   <Route exact path="/add-expense" element={<NewExpense />} />
+    <div className="App">
+
+      <Header></Header>
+      <Routes>
+      <Route exact path="/" element={<Home />} />
+   <Route exact path="/add-expense" element={<Addform />} />
 
       
    <Route path="/login" element={<Login />} /> 
       </Routes>
-      <Footer/>
-      </>
-    
+      <Footer></Footer>
+  
+    </div>
   );
 }
 

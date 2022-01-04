@@ -1,7 +1,5 @@
-import React from 'react'
 import "./login.css"
-import { NavLink } from "react-router-dom"
-
+import {NavLink}from "react-router-dom"
 
 export default function Login() {
     return (

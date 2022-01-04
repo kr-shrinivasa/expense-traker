@@ -1,14 +1,14 @@
 
 
-
 import {
     ADD_EXPENSE,
     DELETE_EXPENSE,
     SEARCH_EXPENSE,
-  } from "../action-types/expenseAt";
+  } from "../actiontype/actionType";
   
   const initialList = () => {
     const list = localStorage.getItem("expense-list");
+
     let expenses = [];
     if (list) {
       expenses = JSON.parse(list);

@@ -1,5 +1,6 @@
 .ReactModal__Content {
-    background-color: #71ccca;
+    background-color: #010a09;
+    background: cadetblue;
   }
   .modal-inner {
     display: flex;

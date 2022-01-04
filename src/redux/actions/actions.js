@@ -2,9 +2,13 @@ import {
     ADD_EXPENSE,
     DELETE_EXPENSE,
     SEARCH_EXPENSE,
-  } from "../action-types/expenseAt";
+  } from "../actiontype/actionType";
   
   export const addExpense = (data) => {
+      console.log("addexpense",data,{
+        type: ADD_EXPENSE,
+        data,
+      })
     return {
       type: ADD_EXPENSE,
       data,

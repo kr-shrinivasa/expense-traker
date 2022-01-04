@@ -1,6 +1,5 @@
-
 import { combineReducers, createStore } from "redux";
-import { expenseReducer } from "../reducers/expenseR";
+import { expenseReducer } from "../reducer/reducer";
 const reducer = combineReducers({
   expenses: expenseReducer,
 });

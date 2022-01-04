@@ -1,6 +1,6 @@
 #footer{
-    padding: 40px 20px;
-    background: #c5b8b8;
+    padding:  20px;
+    /* background: #c5b8b8; */
     position: relative;
     text-align: center;
 }
@@ -13,8 +13,6 @@
     width:80%;
     margin: 0 auto;
     text-align: center;
-
-
 }
 
  .fright .fa{

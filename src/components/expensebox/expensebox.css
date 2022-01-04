@@ -1,0 +1,33 @@
+
+.expense-box{
+    width:50%;
+    margin: auto;
+    padding: 0 20px;
+    /* background-color: lightgrey; */
+    padding: 2px 12px;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+}
+.home{
+    min-height: 80vh;
+    margin: auto;
+}
+
+.items{
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px ;
+    border-top: 2px solid rgba(146, 78, 78,0.7)   
+}
+
+@media screen and (max-width:770px){
+    .expense-box{
+        width:90%;
+        margin: auto;
+        padding: 0 20px;
+     
+    }
+}

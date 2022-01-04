@@ -1,10 +1,10 @@
 import React from "react";
 import Modal from "react-modal";
 import { NavLink } from "react-router-dom";
-import "./sucsessModal.css";
+import "./modal.css";
 
 
-const SuccessModal = ({ modalOpen, setModalOpen }) => {
+const Modaldone = ({ modalOpen, setModalOpen }) => {
   const customStyles = {
     content: {
       top: "50%",
@@ -33,4 +33,4 @@ const SuccessModal = ({ modalOpen, setModalOpen }) => {
   );
 };
 
-export default SuccessModal;
+export default Modaldone;
